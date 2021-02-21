@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: CopyFilesOverSSH@0
+ task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'AnsibleSSH'
     sourceFolder: '$(build.sourcesdirectory)'
